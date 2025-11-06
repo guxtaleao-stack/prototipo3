@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jornal SESI Hamleto</title>
+<style>
+    body{
+        margin:0;
+        background:#efefef;
+        font-family:Georgia, serif;
+    }
+
+    .page{
+        width:950px;
+        min-height:1300px; /* MAIS ALTA VERTICAL */
+        margin:40px auto;
+        background:white;
+        padding:50px;
+        box-shadow:0 0 10px rgba(0,0,0,0.2);
+        page-break-after: always;
+    }
+
+    .edition-title{
+        text-align:center;
+        border-bottom:3px solid black;
+        padding-bottom:12px;
+        margin-bottom:30px;
+    }
+
+    h1{
+        margin:0;
+        font-size:46px;
+    }
+
+    .page-number{
+        text-align:right;
+        font-size:14px;
+        margin-top:40px;
+    }
+
+    .big-title{
+        font-size:34px;
+        font-weight:bold;
+        margin-bottom:15px;
+        text-transform:uppercase;
+    }
+
+    .small-title{
+        font-size:20px;
+        font-weight:bold;
+        margin:12px 0;
+        text-transform:uppercase;
+    }
+
+    .text{
+        font-size:17px;
+        text-align:justify;
+        line-height:1.45;
+        white-space:pre-line; /* mantém os ENTER */
+    }
+
+    .red-box{
+        width:100%;
+        background:#b30000;
+        height:180px;
+        margin:18px 0;
+    }
+
+    .columns{
+        display:flex;
+        gap:25px;
+        margin-top:20px;
+    }
+
+    .col{
+        flex:1;
+    }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================== -->
+<div class="page">
+
+    <div class="edition-title">
+        <h1>Jornal SESI Hamleto</h1>
+        <p>Edição Especial — X / X / XXXX</p>
+    </div>
+
+    <div class="big-title">X</div>
+    <div class="text">X
+
+    </div>
+
+    <div class="red-box"></div>
+
+    <div class="text">X
+
+    </div>
+
+    <div class="columns">
+        <div class="col">
+            <div class="small-title">X</div>
+            <div class="text">X
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="small-title">X</div>
+            <div class="text">X
+
+            </div>
+        </div>
+    </div>
+
+    <div class="page-number">Página 1</div>
+</div>
+
+
+
+<!-- ================= PAGE 2 ================== -->
+<div class="page">
+
+    <div class="big-title">X</div>
+    <div class="text">X
+
+    </div>
+
+    <div class="columns">
+        <div class="col">
+            <div class="red-box"></div>
+            <div class="text">X
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="small-title">X</div>
+            <div class="text">X
+
+            </div>
+            <div class="red-box" style="height:230px;"></div>
+        </div>
+    </div>
+
+    <div class="small-title">X</div>
+    <div class="text">X
+
+    </div>
+
+    <div class="page-number">Página 2</div>
+</div>
+
+
+
+<!-- ================= PAGE 3 ================== -->
+<div class="page">
+
+    <div class="red-box" style="height:250px;"></div>
+
+    <div class="big-title">X</div>
+    <div class="text">X
+
+    </div>
+
+    <div class="columns">
+        <div class="col">
+            <div class="small-title">X</div>
+            <div class="text">X
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="red-box"></div>
+            <div class="text">X
+
+            </div>
+        </div>
+    </div>
+
+    <div class="small-title">X</div>
+    <div class="text">X
+
+    </div>
+
+    <div class="page-number">Página 3</div>
+</div>
+
+</body>
+</html>
